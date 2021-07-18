@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  padding: 1rem;
+  background-color: #11275b;
+  position: sticky;
+  top: 0;
+  max-height: 800px;
+}
+
+header nav ul li a:hover {
+  opacity: 0.8;
+}
+
+header nav {
+  width: 200px;
+  max-width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+header nav ul li {
+  margin: 0.6rem 0;
+}
+
+.profile {
+  position: absolute;
+}
+
+.profile img {
+  max-width: 150px;
+  border-radius: 100%;
+  border: 6px solid rgba(161, 214, 255, 0.3);
+}

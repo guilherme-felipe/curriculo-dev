@@ -1,0 +1,11 @@
+.info {
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: #18d7dd;
+  font-size: 2rem;
+  font-weight: 600;
+}
