@@ -24,21 +24,9 @@ const Section = () => (
         experiências na área de Blockchain, metodologias ágeis, educação e
         medicina.
       </p>
-      <div className="contacts">
-        <a
-          href="https://github.com/guilherme-felipe"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fab fa-github" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/guilherme-felipe-762855116/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fab fa-linkedin" />
-        </a>
+      <div className="contacts" id="contacts">
+        <Title texto="Contatos" />
+        <SubTitle texto="Em desenvolvimento ACQA" />
       </div>
     </section>
     <section id="experience">
