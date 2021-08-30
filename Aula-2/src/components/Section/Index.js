@@ -32,6 +32,13 @@ const Section = () => (
     <section id="experience">
       <Title texto="Experiência" />
       <Card
+        subTitle="Professor"
+        subTitleH3="Uniube"
+        date="Agosto 2021 - Atual"
+        info="professor no componente: Linguagens de Programação para Internet"
+      />
+
+      <Card
         subTitle="Desenvolvedor full stack"
         subTitleH3="Grão Direto"
         date="Julho 2021 - Atual"

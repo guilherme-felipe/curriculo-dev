@@ -13,5 +13,5 @@ const Card = ({ subTitle, subTitleH3, date, info }) => (
     <p>{info}</p>
   </div>
 );
-
+ 
 export default Card;

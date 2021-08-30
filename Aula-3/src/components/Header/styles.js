@@ -6,7 +6,7 @@ export const Itens = styled(HashLink)`
     opacity: 0.8;
   }
 `;
-
+ 
 export const Headers = styled.header`
   width: 100%;
   padding: 1rem;
