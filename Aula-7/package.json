@@ -1,0 +1,20 @@
+{
+  "name": "curriculo-dev-backend",
+  "version": "1.0.0",
+  "description": "A Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "nodemon server",
+    "test": "jest",
+    "compile": "tsc"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "consign": "^0.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
