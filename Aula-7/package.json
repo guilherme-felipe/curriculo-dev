@@ -4,8 +4,8 @@
   "description": "A Node.js project",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server",
-    "start": "nodemon server",
+    "dev": "node server",
+    "start": "node server",
     "test": "jest",
     "compile": "tsc"
   },
