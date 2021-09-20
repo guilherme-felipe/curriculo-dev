@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../Card/Index';
 import { Highlight, Info } from '../Card/styles';
+import Repo from '../Repos';
 import SubTitle from '../SubTitle/Index';
 import Title from '../Title/Index';
 import { SectionHeading } from '../Title/styles';
@@ -42,6 +43,11 @@ const Section = ({ profile }) => (
     <Sections id="projects">
       <Title texto="Projetos" />
       <SubTitle texto="Em desenvolvimento ACQA" />
+    </Sections>
+    <Sections id="repos">
+      <Title texto="Repos GITHUB" />
+      <SubTitle texto="Conheça os meus repositórios" />
+      <Repo />
     </Sections>
   </>
 );
