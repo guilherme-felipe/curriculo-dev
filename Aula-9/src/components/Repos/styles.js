@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const PageContent = styled.main`
+export const PageContent = styled.div`
   display: grid;
   grid-gap: 1rem;
   padding: 1rem;
